@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.navbar-brand img{
+  width: auto;
+  height: 60px;
+}
+
+.footer-sty{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.link-footer{
+  text-decoration: none;
+}
+
+.d-flex input{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+}
+
+.objetoODA{
+  text-align: center;
+  margin-top: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.lista{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.cadaODA{
+  background-color: #343a40;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0,2);
+  transition: transform 108ms ease-in-out;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 40px;
+  border-radius: 10%;
+  color: #fff;
+}
+
+footer{
+  margin-top: 25px;
+}
+
+.nome{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.usuario{
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffc107;
+}
+
+.descricao{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+}
+
+.inclusao{
+  font-family: 'Courier New', Courier, monospace;
+  color: #e7bd3a;
+}
+
+.chave{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+}
